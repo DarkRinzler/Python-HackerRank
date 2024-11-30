@@ -1,0 +1,39 @@
+# ===================================
+#   Problem statement & information
+# ===================================
+
+# You are given a list of N lowercase English letters. For a given integer K, you can select any K indices (assume 1-based indexing) with a uniform probability from the list.
+# Find the probability that at least one of the K indices selected will contain the letter: 'a'.
+
+# Difficulty: Easy
+# Max Score: 40
+# Language: Python
+
+# ===================================
+#              Solution
+# ===================================
+
+#!/bin/python3
+
+from itertools import combinations
+import math
+
+def get_input() -> tuple:
+    num = int(input())
+    array = input().split()
+    index = int(input())
+    return array, index
+
+def comb_count(arr: tuple) -> float:
+    data, length = arr
+    subset = 'a'
+    total_comb = math.comb(len(data), length)
+    valid_comb = sum(1 for comb in combinations(data, length) if any(x in subset for x in comb))
+    return valid_comb / total_comb
+    
+def main() -> None:
+    elements = get_input()
+    print(comb_count(elements))
+    
+if __name__ == "__main__":
+    main()
