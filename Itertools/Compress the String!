@@ -1,0 +1,31 @@
+# ===================================
+#   Problem statement & information
+# ===================================
+
+# You are given a string S. Suppose a character 'c' occurs consecutively X times in the string. Replace these consecutive occurrences of the character 'c' with (X, c) in the string.
+
+
+# Difficulty: Easy
+# Max Score: 20
+# Language: Python
+
+# ===================================
+#              Solution
+# ===================================
+
+#!/bin/python3
+
+from itertools import groupby
+
+def get_input() -> list:
+    return list(map(int, input()))
+
+def main() -> None:
+    elements = get_input()
+    grouped_data = groupby(elements)
+    for key, data in grouped_data:
+        group_num = list(data)
+        print(f"({len(group_num)}, {key})", end=' ')
+    
+if __name__ == "__main__":
+    main()
