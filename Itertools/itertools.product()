@@ -1,0 +1,34 @@
+# ===================================
+#   Problem statement & information
+# ===================================
+
+# You are given a two lists A and B. Your task is to compute their cartesian product AxB.
+# A and B are sorted lists, and the cartesian product's tuples should be output in sorted order.
+
+# Difficulty: Easy
+# Max Score: 10
+# Language: Python
+
+# ===================================
+#              Solution
+# ===================================
+
+#!/bin/python3
+
+from itertools import product
+
+def get_input() -> tuple:
+    setA = list(map(int, input().split()))
+    setB = list(map(int, input().split()))
+    return setA, setB
+    
+def main() -> None:
+    
+    A, B = get_input()
+    AB = product(A, B)
+    
+    for pair in AB:
+        print(f"{pair}", end=' ')
+        
+if __name__ == "__main__":
+    main()
