@@ -1,0 +1,17 @@
+from itertools import product
+
+def get_input() -> tuple:
+    setA = list(map(int, input().split()))
+    setB = list(map(int, input().split()))
+    return setA, setB
+    
+def main() -> None:
+    
+    A, B = get_input()
+    AxB = product(A, B)
+    
+    for pair in AxB:
+        print(f"{pair}", end=' ')
+        
+if __name__ == "__main__":
+    main()
