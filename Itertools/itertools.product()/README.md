@@ -21,7 +21,7 @@ Both lists have no duplicate integer elements.
 
 **Constraints**
 
-0 < **A** < 30
+0 < **A** < 30  
 0 < **B** < 30
 
 **Output Format**
