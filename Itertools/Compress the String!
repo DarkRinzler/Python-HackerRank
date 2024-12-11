@@ -1,0 +1,15 @@
+from itertools import groupby
+from typing import List
+
+def get_input() -> List[int]:
+    return list(map(int, input()))
+
+def main() -> None:
+    elements = get_input()
+    grouped_data = groupby(elements)
+    for key, data in grouped_data:
+        group_num = list(data)
+        print(f"({len(group_num)}, {key})", end=' ')
+    
+if __name__ == "__main__":
+    main()
