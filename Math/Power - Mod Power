@@ -1,0 +1,17 @@
+from typing import List, Tuple
+
+def get_input() -> List[int]:
+    input_nums = [int(x) for _ in range(3) for x in input().split()]
+    return input_nums
+        
+def operations(arr: List[int]) -> Tuple[int]:
+    base, exp, mod = arr
+    return pow(base, exp), pow(base, exp, mod)
+
+def main() -> None:
+    elements = get_input()
+    result = operations(elements)
+    print(*result, sep='\n')
+    
+if __name__ == "__main__":
+    main()
