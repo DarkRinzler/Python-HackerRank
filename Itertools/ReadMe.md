@@ -1,12 +1,12 @@
 ## Itertools Module - HackerRank
-The repository contains the Python3 solutions for the Itertools module on the HackerRank website.
+The repository contains Python 3 solutions for challenges in the Itertools module on HackerRank.
 
-|            Challenge                      |                                 Problem Information                                              |    Difficulty  |  Score  |        Python3 Solution        |
-|:-----------------------------------------:|:------------------------------------------------------------------------------------------------:|:--------------:|:-------:|:----------------------:|
-|          Itertools.product()              |  [Problem](https://www.hackerrank.com/challenges/itertools-product/problem?isFullScreen=true)    |      Easy      |    10   | [Solution](Itertools.product())  
-|          Itertools.permutations()         |  [Problem](https://www.hackerrank.com/challenges/itertools-product/problem?isFullScreen=true)    |      Easy      |    10   | [Solution](Itertools.permutations())
-|          Itertools.combinations()         |  [Problem](https://www.hackerrank.com/challenges/itertools-product/problem?isFullScreen=true)    |      Easy      |    10   | [Solution](Itertools.combinations())
-| Itertools.combinations_with_replacement() |  [Problem](https://www.hackerrank.com/challenges/itertools-product/problem?isFullScreen=true)    |      Easy      |    10   | [Solution](Itertools.permutations())
-|          Compress the String!             |  [Problem](https://www.hackerrank.com/challenges/itertools-product/problem?isFullScreen=true)    |      Medium    |    20   | [Solution](Compress_the_String!)
-|          Iterables and iterators          |  [Problem](https://www.hackerrank.com/challenges/itertools-product/problem?isFullScreen=true)    |      Medium    |    40   | [Solution](Iterables_and_iterators)
-|          Maximiise it!                    |  [Problem](https://www.hackerrank.com/challenges/itertools-product/problem?isFullScreen=true)    |      Hard      |    50   | [Solution](Maximise_it!)
+|            Challenge                      |                                 Problem Information                                                                 |    Difficulty  |  Score  |        Solutions                         |
+|:-----------------------------------------:|:-------------------------------------------------------------------------------------------------------------------:|:--------------:|:-------:|:----------------------------------------:|
+|          Itertools.product()              |  [Problem](https://www.hackerrank.com/challenges/itertools-product/problem?isFullScreen=true)                       |      Easy      |    10   | [Solution](Itertools.product())          |
+|          Itertools.permutations()         |  [Task](https://www.hackerrank.com/challenges/itertools-permutations/problem?isFullScreen=true)                     |      Easy      |    10   | [Solution](Itertools.permutations())     |
+|          Itertools.combinations()         |  [Task](https://www.hackerrank.com/challenges/itertools-combinations/problem?isFullScreen=true)                     |      Easy      |    10   | [Solution](Itertools.combinations())     |
+| Itertools.combinations_with_replacement() |  [Task](https://www.hackerrank.com/challenges/itertools-combinations-with-replacement/problem?isFullScreen=true)    |      Easy      |    10   | [Solution](Itertools.permutations())     |
+|          Compress the String!             |  [Task](https://www.hackerrank.com/challenges/compress-the-string/problem?isFullScreen=true)                        |      Medium    |    20   | [Solution](Compress%20the%20String!)     |
+|          Iterables and iterators          |  [Task](https://www.hackerrank.com/challenges/iterables-and-iterators/problem?isFullScreen=true)                    |      Medium    |    40   | [Solution](Iterables%20and%20iterators)  |
+|          Maximise it!                     |  [Task](https://www.hackerrank.com/challenges/maximize-it/problem?isFullScreen=true)                                |      Hard      |    50   | [Solution](Maximise%20it!)               |
