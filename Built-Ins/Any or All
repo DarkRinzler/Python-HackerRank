@@ -1,0 +1,15 @@
+from typing import List
+
+def get_input() -> List[int]:
+    _ = int(input())
+    return list(map(int, input().split()))
+    
+def condition_check(integers: List[int]) -> bool:
+    return all(number > 0 for number in integers) and any(str(number) == str(number)[::-1] for number in integers)
+
+def main() -> None:
+    data = get_input()
+    print(condition_check(data))
+    
+if __name__ == "__main__":
+    main()
