@@ -1,0 +1,10 @@
+def get_input() -> None:
+    x_value, k_value = map(int, input().split())
+    result = eval(input(), {}, {'x': x_value})
+    print(result == k_value)
+
+def main() -> None:
+    get_input()
+    
+if __name__ == "__main__":
+    main()
