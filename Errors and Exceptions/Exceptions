@@ -1,0 +1,16 @@
+import sys
+    
+def exceptions_print() -> None:
+    _ = int(input())
+    for values in sys.stdin:
+        try:
+            num1, num2 = map(int, values.split())
+            print(num1 // num2)
+        except (ZeroDivisionError, ValueError) as e:
+            print("Error Code:", e)
+
+def main() -> None:
+    exceptions_print()
+    
+if __name__ == "__main__":
+    main()
