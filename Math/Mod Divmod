@@ -1,0 +1,13 @@
+def mod_div() -> None:
+    integer_a = int(input().strip())
+    integer_b = int(input().strip())
+    
+    print(integer_a // integer_b)
+    print(integer_a % integer_b)
+    print(divmod(integer_a, integer_b))
+    
+def main() -> None:
+    mod_div()
+    
+if __name__ == "__main__":
+    main()
