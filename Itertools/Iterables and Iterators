@@ -1,0 +1,23 @@
+from itertools import combinations
+from typing import Tuple
+import math
+
+def get_input() -> Tuple[str, int]:
+    _ = int(input())
+    array = input().split()
+    index = int(input())
+    return array, index
+
+def comb_count(arr: Tuple[str, int]) -> float:
+    data, length = arr
+    subset = 'a'
+    total_comb = math.comb(len(data), length)
+    valid_comb = sum(1 for comb in combinations(data, length) if any(x in subset for x in comb))
+    return valid_comb / total_comb
+    
+def main() -> None:
+    elements = get_input()
+    print(comb_count(elements))
+    
+if __name__ == "__main__":
+    main()
