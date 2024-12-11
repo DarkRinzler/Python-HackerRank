@@ -1,5 +1,5 @@
-## Math Module - HackerRank
-The repository contains Python 3 solutions for challenges in the Math module on HackerRank.
+## Built-Ins Module - HackerRank
+The repository contains Python 3 solutions for challenges in the Built-Ins module on HackerRank.
 
 |            Challenge                      |                                 Task Information                                                                    |    Difficulty  |  Score  |        Solutions                               |
 |:-----------------------------------------:|:-------------------------------------------------------------------------------------------------------------------:|:--------------:|:-------:|:----------------------------------------------:|
