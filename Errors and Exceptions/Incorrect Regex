@@ -1,0 +1,22 @@
+import re
+
+redundant_quantifiers = r'(\*\*|\*\+|\+\*|\+\+)'
+
+def regex_print() -> None:
+    cases = int(input())
+    for _ in range(cases):
+        chars = input().strip()
+        if re.search(redundant_quantifiers, chars):
+            print(False)
+            continue
+        try:
+            re.compile(chars)
+            print(True)
+        except re.error:
+            print(False)
+            
+def main() -> None:
+    regex_print()
+    
+if __name__ == "__main__":
+    main()
