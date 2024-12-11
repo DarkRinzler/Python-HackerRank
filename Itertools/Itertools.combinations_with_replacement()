@@ -1,0 +1,18 @@
+from typing import Tuple, List
+from itertools import combinations_with_replacement
+
+def get_input() -> Tuple[List[str], int]:
+    entry = input().strip().split()
+    return sorted(list(entry[0])), int(entry[1])
+    
+def all_combinations(letters: List[str], length: int) -> None: 
+    all_comb = combinations_with_replacement(letters, length)
+    for combo in all_comb:
+        print(''.join(combo))
+    
+def main() -> None:
+    data = get_input()
+    all_combinations(*data)
+    
+if __name__ == "__main__":
+    main()
