@@ -1,0 +1,9 @@
+def evaluate() -> None:
+    expression = input()
+    eval(expression)
+
+def main() -> None:
+    evaluate()
+    
+if __name__ == "__main__":
+    main()
