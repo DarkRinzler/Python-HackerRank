@@ -10,8 +10,7 @@ def main() -> None:
     A, B = get_input()
     AxB = product(A, B)
     
-    for pair in AxB:
-        print(f"{pair}", end=' ')
+    print(' '.join(map(str, AxB)))
         
 if __name__ == "__main__":
     main()
