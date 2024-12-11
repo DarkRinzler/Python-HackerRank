@@ -1,9 +1,9 @@
 ## Itertools Module - HackerRank
 The repository contains Python 3 solutions for challenges in the Itertools module on HackerRank.
 
-|            Challenge                      |                                 Problem Information                                                                 |    Difficulty  |  Score  |        Solutions                         |
+|            Challenge                      |                                 Task Information                                                                    |    Difficulty  |  Score  |        Solutions                         |
 |:-----------------------------------------:|:-------------------------------------------------------------------------------------------------------------------:|:--------------:|:-------:|:----------------------------------------:|
-|          Itertools.product()              |  [Problem](https://www.hackerrank.com/challenges/itertools-product/problem?isFullScreen=true)                       |      Easy      |    10   | [Solution](Itertools.product())          |
+|          Itertools.product()              |  [Task](https://www.hackerrank.com/challenges/itertools-product/problem?isFullScreen=true)                          |      Easy      |    10   | [Solution](Itertools.product())          |
 |          Itertools.permutations()         |  [Task](https://www.hackerrank.com/challenges/itertools-permutations/problem?isFullScreen=true)                     |      Easy      |    10   | [Solution](Itertools.permutations())     |
 |          Itertools.combinations()         |  [Task](https://www.hackerrank.com/challenges/itertools-combinations/problem?isFullScreen=true)                     |      Easy      |    10   | [Solution](Itertools.combinations())     |
 | Itertools.combinations_with_replacement() |  [Task](https://www.hackerrank.com/challenges/itertools-combinations-with-replacement/problem?isFullScreen=true)    |      Easy      |    10   | [Solution](Itertools.permutations())     |
