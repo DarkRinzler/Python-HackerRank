@@ -1,0 +1,17 @@
+from typing import Iterator, Tuple
+
+def get_input() -> tuple[Iterator[Tuple[float, ...]], int]:
+    num_students, num_subjects = map(int, input().split())
+    students_scores = zip(*[list(map(float, input().split())) for _ in range(num_subjects)])
+    return students_scores, num_subjects
+    
+def average_scores(students_scores: Iterator[Tuple[float, ...]], num_subjects: int) -> None:
+    for scores in students_scores:
+        print(f"{sum(scores) / num_subjects:.1f}")
+    
+def main() -> None:
+    data = get_input()
+    average_scores(*data)
+    
+if __name__ == "__main__":
+    main()
