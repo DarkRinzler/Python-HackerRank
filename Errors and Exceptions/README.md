@@ -1,5 +1,5 @@
-## Math Module - HackerRank
-The repository contains Python 3 solutions for challenges in the Math module on HackerRank.
+## Errors and Exceptions Module - HackerRank
+The repository contains Python 3 solutions for challenges in the Errors and Exceptions module on HackerRank.
 
 |            Challenge                      |                                 Task Information                                                                    |    Difficulty  |  Score  |        Solutions                               |
 |:-----------------------------------------:|:-------------------------------------------------------------------------------------------------------------------:|:--------------:|:-------:|:----------------------------------------------:|
