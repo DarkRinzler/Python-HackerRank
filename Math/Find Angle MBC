@@ -1,0 +1,20 @@
+from typing import List
+import sys
+import math
+
+
+def get_input() -> List[int]:
+    data = sys.stdin.read()
+    return list(map(int, data.split()))
+    
+def angle(array: List[int]) -> float:
+    AB, BC = array
+    return round(math.degrees(math.atan2(AB, BC)))
+    
+def main() -> None:
+    cathetus = get_input()
+    result = angle(cathetus)
+    print(f"{result}{chr(176)}")
+    
+if __name__ == "__main__":
+    main()
