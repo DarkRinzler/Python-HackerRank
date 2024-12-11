@@ -1,0 +1,12 @@
+import calendar
+
+def day_check() -> None:
+    month, day, year = list(map(int, input().split()))
+    week_day = calendar.weekday(year, month, day)
+    print(calendar.day_name[week_day].upper())
+
+def main() -> None:
+    day_check()
+    
+if __name__ == "__main__":
+    main()
