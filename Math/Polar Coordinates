@@ -1,0 +1,22 @@
+import cmath as cm
+
+def get_input() -> complex:
+    return complex(input())
+    
+def compute_operations(element: complex) -> None:
+    operations = {
+        "Modulus": lambda x: abs(x),
+        "Phase": lambda x: cm.phase(x),
+    }
+    
+    for op in operations.values():
+        print(op(element))
+
+def main() -> None:
+    
+    element = get_input()
+    compute_operations(element)
+
+    
+if __name__ == "__main__":
+    main()
