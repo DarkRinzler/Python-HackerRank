@@ -1,0 +1,15 @@
+from itertools import permutations
+
+def get_input() -> list:
+    elements = input().split()
+    return sorted(elements[0]), int(elements[1])
+    
+def main() -> None:
+    iterable, length = get_input()
+    result = permutations(iterable, length)
+    for perm in result:
+        print(''.join(perm))
+    
+if __name__ == "__main__":
+    main()
+    
