@@ -1,0 +1,20 @@
+from typing import List
+
+def get_input() -> List[str]:
+    return list(input())
+
+def sorting(string_arr: List[str]) -> None:
+    sorted_string = sorted(string_arr, key=lambda x: (
+        x.isdigit(),
+        x.isupper(),
+        int(x) % 2 == 0 if x.isdigit() else False,
+        x.lower() if x.isalpha() else x
+    ))
+    print(''.join(sorted_string))
+    
+def main() -> None:
+    data = get_input()
+    sorting(data)
+    
+if __name__ == "__main__":
+    main()
