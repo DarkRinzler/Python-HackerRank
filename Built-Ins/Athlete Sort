@@ -1,0 +1,20 @@
+from typing import Tuple, List
+
+def get_input() -> Tuple[List[int], int]:
+    num_athletes, num_attr = map(int, input().split())
+    spreadsheet = [list(map(int, input().split())) for _ in range(num_athletes)]
+    sort_index = int(input())
+    return spreadsheet, sort_index
+
+def k_index_sort(spreadsheet: List[List[int]], sort_index:int) -> None:
+    spreadsheet_sort = sorted(spreadsheet, key=lambda x: x[sort_index])
+    for values in spreadsheet_sort:
+        print(' '.join(map(str, values)))
+        
+def main() -> None:
+    data = get_input()
+    k_index_sort(*data)
+
+if __name__ == '__main__':
+    main()
+    
