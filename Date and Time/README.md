@@ -1,5 +1,5 @@
-## Math Module - HackerRank
-The repository contains Python 3 solutions for challenges in the Math module on HackerRank.
+## Date and Time Module - HackerRank
+The repository contains Python 3 solutions for challenges in the Date and Time module on HackerRank.
 
 |            Challenge                      |                                 Task Information                                                                    |    Difficulty  |  Score  |        Solutions                         |
 |:-----------------------------------------:|:-------------------------------------------------------------------------------------------------------------------:|:--------------:|:-------:|:----------------------------------------:|
